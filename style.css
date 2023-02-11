@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poiret One', cursive;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+header {
+    width: 80vw;
+    height: 60vh;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+nav {
+    width: 60vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul, li {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FAF9F8;
+}
+
+.conteudoHeader {
+    width: 60vw;
+    height: 45vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxHeader {
+    width: 25vw;
+    height: 30vh;
+}
+
+.primeiro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+
+    color: #E5E7EB;
+}
+
+button {
+    width: 5vw;
+    height: 3vh;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    font-weight: 900;
+
+    cursor: pointer;
+}
+
+.segundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoMain {
+    width: 80vw;
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frist {
+    background-color: #ffffff;
+}
+
+.conteudoMainFrist {
+    width: 60vw;
+    height: 50vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.h3Text {
+    width: 30vw;
+    height: 8vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+
+    color: #1F2937;
+}
+
+.boxMain {
+    width: 60vw;
+    height: 35vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    width: 9vw;
+    height: 25vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContent {
+    width: 8vw;
+    height: 15vh;
+
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+p2 {
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 900;
+    
+    color: #1F2937;
+}
+
+.secund {
+    height: 40vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.conteudoMainSecund {
+    width: 45vw;
+    height: 30vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+    color: #1F2937;
+}
+
+.conteudoMainSecundPalagrafo {
+    width: 45vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: end;
+
+    font-weight: 900;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+section {
+    width: 80vw;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+}
+
+.contentSection {
+    width: 60vw;
+    height: 15vh;
+
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3882F6;
+}
+
+h5 {
+    color: #F9FAF8;
+
+    font-size: 24px;
+    font-weight: 900;
+}
+
+p4 {
+    color: #F9FAF8;
+    
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#testeBtn {
+    width: 100px;
+    height: 40px;
+
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+footer {
+    width: 80vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+h6 {
+    font-size: 13px;
+    color: #F9FAF8;
+}
